@@ -1,0 +1,48 @@
+{
+  "identifier" : "D6CA19FE",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "DB7E75ED",
+      "localizations" : [
+        {
+          "description" : "Extra bra grejor",
+          "displayName" : "The fancyy credit CONF",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "fancycredit",
+      "referenceName" : "fancycredit",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "20.99",
+      "familyShareable" : false,
+      "internalID" : "62F26E44",
+      "localizations" : [
+        {
+          "description" : "Heja heja premium",
+          "displayName" : "Premium CONF",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "fancypremium",
+      "referenceName" : "fancypremium",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}

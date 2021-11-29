@@ -11,6 +11,8 @@
 		ABE42BA12754C72E009B3F45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE42BA02754C72E009B3F45 /* ContentView.swift */; };
 		ABE42BA32754C72F009B3F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE42BA22754C72F009B3F45 /* Assets.xcassets */; };
 		ABE42BA62754C72F009B3F45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE42BA52754C72F009B3F45 /* Preview Assets.xcassets */; };
+		ABE42BAE2754CC07009B3F45 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE42BAD2754CC07009B3F45 /* StoreKit.framework */; };
+		ABE42BB02754DCCD009B3F45 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE42BAF2754DCCD009B3F45 /* StoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		ABE42BA02754C72E009B3F45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABE42BA22754C72F009B3F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE42BA52754C72F009B3F45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABE42BAD2754CC07009B3F45 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ABE42BAF2754DCCD009B3F45 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		ABE42BB12754FD8A009B3F45 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE42BAE2754CC07009B3F45 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +43,7 @@
 			children = (
 				ABE42B9D2754C72E009B3F45 /* piaxiap */,
 				ABE42B9C2754C72E009B3F45 /* Products */,
+				ABE42BAC2754CC07009B3F45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				ABE42B9E2754C72E009B3F45 /* piaxiapApp.swift */,
+				ABE42BAF2754DCCD009B3F45 /* StoreManager.swift */,
+				ABE42BB12754FD8A009B3F45 /* Configuration.storekit */,
 				ABE42BA02754C72E009B3F45 /* ContentView.swift */,
 				ABE42BA22754C72F009B3F45 /* Assets.xcassets */,
 				ABE42BA42754C72F009B3F45 /* Preview Content */,
@@ -65,6 +74,14 @@
 				ABE42BA52754C72F009B3F45 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABE42BAC2754CC07009B3F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABE42BAD2754CC07009B3F45 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE42BB02754DCCD009B3F45 /* StoreManager.swift in Sources */,
 				ABE42BA12754C72E009B3F45 /* ContentView.swift in Sources */,
 				ABE42B9F2754C72E009B3F45 /* piaxiapApp.swift in Sources */,
 			);

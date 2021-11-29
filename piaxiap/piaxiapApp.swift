@@ -6,12 +6,23 @@
 //
 
 import SwiftUI
+import StoreKit
 
 @main
 struct piaxiapApp: App {
+    
+    @StateObject var storemanager = StoreManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(storeManager: storemanager)
+                .onAppear(perform: {
+                    
+                    SKPaymentQueue.default().add(storemanager)
+                    
+                    var theproducts = ["fancycredit", "fancypremium"]
+                    storemanager.getProducts(productIDs: theproducts)
+                })
         }
     }
 }
